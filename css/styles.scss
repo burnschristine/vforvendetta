@@ -1,0 +1,47 @@
+@import "uikit.min";
+@import "mediaplayer.min";
+
+body {
+   width: 100%;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 5em;
+  color: #7f071b;
+  text-align: center;
+   background: rgba(255,255,255,.35);
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3em;
+  color: #7f071b;  
+   background: rgba(255,255,255,.35);
+}
+
+li {
+  list-style-type: none;
+  border: 2px solid black;
+}
+div {
+  background: black;
+  height: 400px;  
+  overflow: hidden;
+}
+
+// First Frame
+p {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: black;
+  background: rgba(255,255,255,.35);
+  transition: margin-top .5s ease-in-out;
+  //   Justice's solution
+  position: relative;
+}
+
+// Last Frame
+div:hover p {
+  padding: 1em;
+  margin-top: -104px;  
+} 
